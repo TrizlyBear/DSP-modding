@@ -162,5 +162,5 @@ I hope this is helpfull! For any questions, problems, or mod related things, fee
 
 ### Other resources
 - [dnSpy](https://github.com/dnSpy/dnSpy)
-- Item and Recipe id's
+- [Item and Recipe id's](https://github.com/TrizlyBear/DSP-modding/blob/main/IDs)
 - [DSP Modding discord](https://discord.gg/sgU8QfZhuB)
