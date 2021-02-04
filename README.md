@@ -101,20 +101,26 @@ or
 <OutputPath>bin\Release\</OutputPath>
 ```
 To your desired output folder.
+Example:
+```xml
+<OutputPath>D:\Games\steam\steamapps\common\Dyson Sphere Program\Mods\DSPTest</OutputPath>
+```
 
 Our main class should look something like this now.
 
 ```cs
+using UnityEngine;
+using UnityModManagerNet;
+
 namespace DSPTest {
   // Allows you to reload your mod if you make a change to your code and you rebuild your assembly
   [EnableReloading]
   static class Main {
-    // Our loading function
-    
     // Does not reset when you reload your mod
     [SaveOnReload]
-    pubic static bool init = false;
+    public static bool init = false;
     
+    // Our loading function
     static bool Load(UnityModManager.ModEntry modEntry) {
       if (!ini) {
         // Our mod is read!
@@ -122,7 +128,7 @@ namespace DSPTest {
 
         // Create a simple cube
         GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        cube.transform.position = new Vector3(0, 0.5f, 0);
+        cube.transform.position = new Vector3(0, 10.0f, 0);
 
         // Speed up the game
         Time.timeScale = 10.0f;
