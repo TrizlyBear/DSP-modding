@@ -5,3 +5,8 @@ This is a small guide to develop mods for Dyson Sphere Program using Unity Mod M
 ### Pages
 
 - [Creating your first mod](https://github.com/TrizlyBear/DSP-modding/blob/main/Tutorial.md#modding-with-unity-mod-manager)
+
+
+### Don't
+
+Everyone uses BepInEx, too late to get people to switch to UMM.
