@@ -1,3 +1,6 @@
+# ⚠️ THIS GUIDE IS OUTDATED ⚠️
+For a better guide please go [here](https://wiki.customizing.space/en/Guides/raptor-getting-started)
+
 # Dyson Sphere Program Modding
 
 This is a small guide to develop mods for Dyson Sphere Program using Unity Mod Manager (UMM).
